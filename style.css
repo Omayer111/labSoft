@@ -1,0 +1,35 @@
+body
+{
+    height: 100vh;
+    width: auto;
+}
+
+.parent {
+    height: 80%;
+    width: 90%;
+    background-color: #75d385;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+
+    height: 30%;
+    width: 20%;
+    background-color: rgb(25, 134, 153);
+    margin: 10px;
+}
+
+@media screen and (max-width: 200px)
+{
+ 
+    .parent {
+        background-color: rgb(3, 3, 3);
+    }
+    .child
+    {
+        background-color: rgb(213, 233, 103);
+    }
+}
